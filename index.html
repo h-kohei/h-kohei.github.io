@@ -57,14 +57,16 @@
                     <p class="form__email">メールアドレス</p>
                     <input type="text" name="email" placeholder="例：Example@example.com" class="input__email">
                     <p class="form__plan">ご希望プラン（空いているプランのみ表示されます）</p>
-                    <select name="example2" size="1" class="select">
-                        <option value="" class="select__plan">プランを選択してください</option>
-                        <option value="choice1">【期間限定】海辺の四季旬彩、贅沢美味懐石プラン</option>
-                        <option value="choice2">平日に優雅に楽しむ、特別宿泊プラン</option>
-                        <option value="choice3">絶景貸切露天と個室会席を満喫できるファミリープラン</option>
-                    </select>
-                    <p class="form__datetime">日時選択</p>
-                    <input class="input__flatpickr" type="text" readonly="readonly" placeholder="日時を選択してください">
+                    <div class="form__select">
+                        <select name="example2" size="1" class="select">
+                            <option value="" class="select__plan">プランを選択してください</option>
+                            <option value="choice1">【期間限定】海辺の四季旬彩、贅沢美味懐石プラン</option>
+                            <option value="choice2">平日に優雅に楽しむ、特別宿泊プラン</option>
+                            <option value="choice3">絶景貸切露天と個室会席を満喫できるファミリープラン</option>
+                        </select>
+                    </div>
+                        <p class="form__datetime">日時選択</p>
+                        <input class="input__flatpickr" type="text" readonly="readonly" placeholder="日時を選択してください">
                     <input type="submit" value="送信する" class="form__submit">
                 </form>
                 <img src="/img/close.png" alt="" class="js-modal-close img__close">
